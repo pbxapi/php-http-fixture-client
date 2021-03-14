@@ -2,7 +2,7 @@
 
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/swisnl/php-http-fixture-client.svg)](https://packagist.org/packages/swisnl/php-http-fixture-client)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/swisnl/php-http-fixture-client.svg)](https://packagist.org/packages/swisnl/php-http-fixture-client)
-[![Software License](https://img.shields.io/packagist/l/swisnl/php-http-fixture-client.svg)](https://github.com/swisnl/php-http-fixture-client/blob/master/LICENSE) 
+[![Software License](https://img.shields.io/packagist/l/swisnl/php-http-fixture-client.svg)](https://github.com/swisnl/php-http-fixture-client/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/swisnl/php-http-fixture-client.svg?branch=master)](https://travis-ci.org/swisnl/php-http-fixture-client)
 [![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/swisnl/php-http-fixture-client.svg)](https://scrutinizer-ci.com/g/swisnl/php-http-fixture-client/?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/swisnl/php-http-fixture-client.svg)](https://scrutinizer-ci.com/g/swisnl/php-http-fixture-client/?branch=master)
@@ -21,8 +21,8 @@ $ composer require --dev swisnl/php-http-fixture-client
 
 ``` php
 // Create client
-$responseBuilder = new \Swis\Http\Fixture\ResponseBuilder('/path/to/fixtures');
-$client = new \Swis\Http\Fixture\Client($responseBuilder);
+$responseBuilder = new \Pbxapi\Http\Fixture\ResponseBuilder('/path/to/fixtures');
+$client = new \Pbxapi\Http\Fixture\Client($responseBuilder);
 
 // Send request
 $response = $client->sendRequest(new Request(...));
@@ -67,7 +67,7 @@ This means that both the method and query params must be present in the fixture 
 ### Body
 
 The body of a request is loaded directly from a fixture with the file extension _.mock_.
-The contents of this file can be anything that is a valid HTTP response, e.g. HTML, JSON or even images. 
+The contents of this file can be anything that is a valid HTTP response, e.g. HTML, JSON or even images.
 If a fixture can not be found, a `MockNotFoundException` will be thrown.
 This exception has a convenience method `getPossiblePaths()` which lists all file paths that were checked, in order of specificity.
 
@@ -117,4 +117,4 @@ The MIT License (MIT). Please see [License File](https://github.com/swisnl/php-h
 
 ## SWIS
 
-[SWIS](https://www.swis.nl) is a web agency from Leiden, the Netherlands. We love working with open source software. 
+[SWIS](https://www.swis.nl) is a web agency from Leiden, the Netherlands. We love working with open source software.
