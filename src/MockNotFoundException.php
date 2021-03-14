@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\Http\Fixture;
+namespace Pbxapi\Http\Fixture;
 
 class MockNotFoundException extends \Exception
 {

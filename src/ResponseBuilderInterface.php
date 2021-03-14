@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\Http\Fixture;
+namespace Pbxapi\Http\Fixture;
 
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

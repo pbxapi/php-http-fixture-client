@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\Http\Fixture;
+namespace Pbxapi\Http\Fixture;
 
 use Http\Discovery\MessageFactoryDiscovery;
 use Http\Message\ResponseFactory;
@@ -81,7 +81,7 @@ class ResponseBuilder implements ResponseBuilderInterface
      * @param \Psr\Http\Message\RequestInterface $request
      *
      * @throws \RuntimeException
-     * @throws \Swis\Http\Fixture\MockNotFoundException
+     * @throws \Pbxapi\Http\Fixture\MockNotFoundException
      *
      * @return ResponseInterface
      */
@@ -135,7 +135,7 @@ class ResponseBuilder implements ResponseBuilderInterface
      * @param \Psr\Http\Message\RequestInterface $request
      *
      * @throws \RuntimeException
-     * @throws \Swis\Http\Fixture\MockNotFoundException
+     * @throws \Pbxapi\Http\Fixture\MockNotFoundException
      *
      * @return string
      */
@@ -150,7 +150,7 @@ class ResponseBuilder implements ResponseBuilderInterface
      * @param \Psr\Http\Message\RequestInterface $request
      * @param string                             $type
      *
-     * @throws \Swis\Http\Fixture\MockNotFoundException
+     * @throws \Pbxapi\Http\Fixture\MockNotFoundException
      * @throws \RuntimeException
      *
      * @return string

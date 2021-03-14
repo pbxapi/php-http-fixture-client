@@ -1,5 +1,5 @@
 {
-    "name": "swisnl/php-http-fixture-client",
+    "name": "pbxapi/php-http-fixture-client",
     "description": "Fixture client for PHP-HTTP",
     "type": "library",
     "keywords": [
@@ -11,7 +11,7 @@
         "psr-7",
         "psr-18"
     ],
-    "homepage": "https://github.com/swisnl/php-http-fixture-client",
+    "homepage": "https://github.com/pbxapi/php-http-fixture-client",
     "license": "MIT",
     "authors": [
         {
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.2|^8.0",
         "danielstjules/stringy": "^3.1",
         "php-http/discovery": "^1.4",
         "php-http/mock-client": "^1.2",
@@ -40,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Swis\\Http\\Fixture\\": "src/"
+            "Pbxapi\\Http\\Fixture\\": "src/"
         }
     },
     "autoload-dev": {
-        "psr-4" : {
-            "Swis\\Http\\Fixture\\Tests\\" : "tests/"
+        "psr-4": {
+            "Pbxapi\\Http\\Fixture\\Tests\\": "tests/"
         }
     },
     "scripts": {

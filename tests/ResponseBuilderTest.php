@@ -1,13 +1,13 @@
 <?php
 
-namespace Swis\Http\Fixture\Tests;
+namespace Pbxapi\Http\Fixture\Tests;
 
 use function GuzzleHttp\Psr7\stream_for;
 use Http\Discovery\MessageFactoryDiscovery;
 use PHPUnit\Framework\TestCase;
-use Swis\Http\Fixture\MockNotFoundException;
-use Swis\Http\Fixture\ResponseBuilder;
-use Swis\Http\Fixture\ResponseBuilderInterface;
+use Pbxapi\Http\Fixture\MockNotFoundException;
+use Pbxapi\Http\Fixture\ResponseBuilder;
+use Pbxapi\Http\Fixture\ResponseBuilderInterface;
 
 class ResponseBuilderTest extends TestCase
 {

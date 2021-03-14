@@ -1,9 +1,9 @@
 <?php
 
-namespace Swis\Http\Fixture\Tests;
+namespace Pbxapi\Http\Fixture\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Swis\Http\Fixture\MockNotFoundException;
+use Pbxapi\Http\Fixture\MockNotFoundException;
 
 class MockNotFoundExceptionTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\Http\Fixture;
+namespace Pbxapi\Http\Fixture;
 
 use Http\Message\ResponseFactory;
 use Http\Mock\Client as MockClient;
